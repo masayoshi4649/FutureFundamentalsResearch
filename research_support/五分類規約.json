@@ -1,0 +1,25 @@
+{
+  "version": "五分類20261016_1",
+  "confirmed": true,
+  "confirmed_at": "2026-10-16T16:34:17.608192+09:00",
+  "overlap_policy": "もみ合い優先・初回到達方向",
+  "criteria": {
+    "target_basis": "場中到達",
+    "movement_threshold_pct": "0.5",
+    "direction_threshold_pct": "0.5",
+    "initial_excursion_pct": "0.5",
+    "reversal_threshold_pct": "0.5",
+    "reversal_requires_reference_cross": false,
+    "range_threshold_pct": "1",
+    "flat_terminal_threshold_pct": "0.5",
+    "interval_minutes": 1,
+    "reference_max_lag_minutes": 10,
+    "endpoint_max_lag_minutes": 10
+  },
+  "notes": [
+    "対象・反転・もみ合い優先はユーザーの追加回答で確認。",
+    "複数往復は初回到達方向から最初の反転へ固定。",
+    "direction_threshold_pctは旧一般評価との互換項目。優先分類では使用しない。",
+    "高安幅・反転幅の分母は前セッション先物基準価格。"
+  ]
+}

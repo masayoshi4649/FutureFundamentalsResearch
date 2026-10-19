@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-09-28T07:45:00+09:00",
+  "articles": [
+    {
+      "id": 477205,
+      "revision_id": "89d71cefc3c65d013ffedaacce2725fb013de3f7b1427099f46c921dbfc9681b",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/477205.json"
+    },
+    {
+      "id": 489586,
+      "revision_id": "de26f5d3b951cf3a48ef229b09c410e7b422761899362cef736da7c918a5bf53",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/489586.json"
+    },
+    {
+      "id": 483820,
+      "revision_id": "0f88eb436d78cc6047288bebd759d55d0678f16c4a11d1b47f871b61471d58bf",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/483820.json"
+    },
+    {
+      "id": 474906,
+      "revision_id": "93f0ea707b89a40cfa1f4652bed713db34d5dd2854e27169eede455b782b85b3",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/474906.json"
+    },
+    {
+      "id": 470320,
+      "revision_id": "715a9a9a4a0d0baeb67a15aaf3f236bd3dbfa85c80939d936d0db1e4bec4539c",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/470320.json"
+    },
+    {
+      "id": 481794,
+      "revision_id": "c090f020edbbcd7931306b2b9d5364dc6814695ec85effb48a78357222724bf6",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/481794.json"
+    },
+    {
+      "id": 500942,
+      "revision_id": "0dd8bdea24ce945bf9c93060ae160034689ae51d82f5c80a32a57a1e8c837e16",
+      "raw_path": "local/本文遮断連続/原本/予測/20260928_0745/500942.json"
+    }
+  ]
+}

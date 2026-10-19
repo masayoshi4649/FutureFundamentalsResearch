@@ -1,0 +1,220 @@
+{
+  "as_of": "2026-09-30T07:45:00+09:00",
+  "references": {
+    "NK225": {
+      "symbol": "NK225",
+      "contract": "202612",
+      "price": 50000,
+      "time": "2026-09-30T05:55:00+09:00",
+      "session": "2026-09-29_Night",
+      "proxy": true,
+      "source": "合成先物足.csv"
+    },
+    "TOPIX": {
+      "symbol": "TOPIX",
+      "contract": "202612",
+      "price": 3500,
+      "time": "2026-09-30T05:55:00+09:00",
+      "session": "2026-09-29_Night",
+      "proxy": true,
+      "source": "合成先物足.csv"
+    }
+  },
+  "articles": [
+    {
+      "id": "1",
+      "revision_id": "1",
+      "canonical_url": "https://example.invalid/1",
+      "headline": "合成記事",
+      "body": "合成本文",
+      "published_at": "2026-09-29T21:00:00+09:00",
+      "fetched_at": "2026-09-29T21:01:00+09:00",
+      "effective_at": "2026-09-29T21:00:00+09:00"
+    },
+    {
+      "id": "2",
+      "revision_id": "1",
+      "canonical_url": "https://example.invalid/2",
+      "headline": "合成記事",
+      "body": "合成本文",
+      "published_at": "2026-09-29T21:00:00+09:00",
+      "fetched_at": "2026-09-29T21:01:00+09:00",
+      "effective_at": "2026-09-29T21:00:00+09:00"
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "材料1",
+      "story_key": "事象1",
+      "title": "合成材料1",
+      "evidence": [
+        {
+          "id": "1",
+          "revision_id": "1"
+        }
+      ],
+      "status": "有効",
+      "status_reason": "締切時点で反証なし。",
+      "expires_at": null,
+      "invalidation": "内容の否定または効果の消失。",
+      "offsets": [
+        {
+          "material_id": "材料2",
+          "reason": "逆方向の利益期待が相殺。符号付き合計以外の追加控除をしない。"
+        }
+      ],
+      "news_facts": {
+        "prior_expectation": null,
+        "actual": "合成の新事実",
+        "surprise": null,
+        "first_public_at": null,
+        "retrieved_at": "2026-09-29T21:01:00+09:00",
+        "next_events": []
+      },
+      "external_observations": [],
+      "impacts": {
+        "NK225": {
+          "today": {
+            "impact_pt": 3,
+            "priced_in_before_reference_pt": 2,
+            "priced_in_after_reference_pt": 0,
+            "evidence": {
+              "impact_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_before_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_after_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。"
+            },
+            "transmission": "合成の利益期待を通じた指数先物への影響仮説。",
+            "observations": {
+              "before_reference": [],
+              "after_reference": []
+            }
+          },
+          "week": null,
+          "month": null,
+          "quarter": null
+        },
+        "TOPIX": {
+          "today": {
+            "impact_pt": 3,
+            "priced_in_before_reference_pt": 2,
+            "priced_in_after_reference_pt": 0,
+            "evidence": {
+              "impact_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_before_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_after_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。"
+            },
+            "transmission": "合成の利益期待を通じた指数先物への影響仮説。",
+            "observations": {
+              "before_reference": [],
+              "after_reference": []
+            }
+          },
+          "week": null,
+          "month": null,
+          "quarter": null
+        }
+      }
+    },
+    {
+      "material_id": "材料2",
+      "story_key": "事象2",
+      "title": "合成材料2",
+      "evidence": [
+        {
+          "id": "2",
+          "revision_id": "1"
+        }
+      ],
+      "status": "有効",
+      "status_reason": "締切時点で反証なし。",
+      "expires_at": null,
+      "invalidation": "内容の否定または効果の消失。",
+      "offsets": [],
+      "news_facts": {
+        "prior_expectation": null,
+        "actual": "合成の新事実",
+        "surprise": null,
+        "first_public_at": null,
+        "retrieved_at": "2026-09-29T21:01:00+09:00",
+        "next_events": []
+      },
+      "external_observations": [],
+      "impacts": {
+        "NK225": {
+          "today": {
+            "impact_pt": -2,
+            "priced_in_before_reference_pt": -1,
+            "priced_in_after_reference_pt": 0,
+            "evidence": {
+              "impact_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_before_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_after_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。"
+            },
+            "transmission": "合成の利益期待を通じた指数先物への影響仮説。",
+            "observations": {
+              "before_reference": [],
+              "after_reference": []
+            }
+          },
+          "week": null,
+          "month": null,
+          "quarter": null
+        },
+        "TOPIX": {
+          "today": {
+            "impact_pt": -2,
+            "priced_in_before_reference_pt": -1,
+            "priced_in_after_reference_pt": 0,
+            "evidence": {
+              "impact_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_before_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。",
+              "priced_in_after_reference_pt": "合成記事と基準までの観測を踏まえた主観注釈。閉場中の追加約定観測なし。"
+            },
+            "transmission": "合成の利益期待を通じた指数先物への影響仮説。",
+            "observations": {
+              "before_reference": [],
+              "after_reference": []
+            }
+          },
+          "week": null,
+          "month": null,
+          "quarter": null
+        }
+      }
+    }
+  ],
+  "forecasts": {
+    "NK225": {
+      "today": {
+        "direction": "上がる",
+        "author_kind": "LLM",
+        "author": "合成判定者",
+        "reason": "合成の別判断。",
+        "material_ids": [
+          "材料1",
+          "材料2"
+        ],
+        "point_rationale": "残余＋1ptと−1ptは拮抗するが、当該先物への伝達順を別判断した。"
+      },
+      "week": null,
+      "month": null,
+      "quarter": null
+    },
+    "TOPIX": {
+      "today": {
+        "direction": "下がる",
+        "author_kind": "LLM",
+        "author": "合成判定者",
+        "reason": "合成の別判断。",
+        "material_ids": [
+          "材料1",
+          "材料2"
+        ],
+        "point_rationale": "残余＋1ptと−1ptは拮抗するが、当該先物への伝達順を別判断した。"
+      },
+      "week": null,
+      "month": null,
+      "quarter": null
+    }
+  }
+}

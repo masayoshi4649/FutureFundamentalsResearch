@@ -28,6 +28,19 @@ go.work.sum
 # env file
 .env
 
+# ローカルのニュース本文・価格証跡・反復実験
+local/
+__pycache__/
+*.pyc
+.venv/
+
+# 反復検証の本文原本・価格切出し・機械用証跡
+検証/**/masked/
+検証/**/機械予測/
+検証/**/*.json
+検証/**/*.jsonl
+検証/**/*.csv
+
 # Editor/IDE
 # .idea/
 # .vscode/

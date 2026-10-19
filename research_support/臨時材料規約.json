@@ -1,0 +1,16 @@
+{
+  "version": "未知臨時材料前20261016_1",
+  "confirmed": true,
+  "unexpected_only": true,
+  "scheduled_surprise_cancels": false,
+  "selection": "予測当否を見ない担当が新規性・臨時性・影響・公表時計を認定し、最初の該当材料で終了",
+  "cutoff_scope": "assessment_as_ofごと、先物ごとに固定",
+  "rounding": "公表時計を分単位で切り下げ、跨ぐ足を除外",
+  "unknown_time": "確定初報時計はnullのまま、記事clockは上限として保存し認定不明へ",
+  "pending_label": "主評価未確定、学習ラベル重み０",
+  "history_as_of": "過去場の教師は各締切で再構成し、根拠全記事の収録版の公開・取得・有効時計の最大が締切より前の認定だけを適用",
+  "late_evidence": "後日の記事による保留の存在を事前の教師選別へ使わず、判明した次の締切から過去教師を訂正",
+  "preopen": "開始前失効を全予定数に残して別集計",
+  "reference_evaluation": "元の全セッション評価を参考として別保存",
+  "unanswered": "評価対象内なら不正解"
+}

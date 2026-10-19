@@ -1,0 +1,6 @@
+[project]
+name = "future-fundamentals-research"
+version = "0.1.0"
+description = "ニュースとNK225・TOPIX先物の時点整合研究"
+requires-python = ">=3.11"
+dependencies = []
