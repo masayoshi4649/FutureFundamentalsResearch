@@ -1,0 +1,4 @@
+interface:
+  display_name: "先物ファンダメンタルズ予想"
+  short_description: "材料の織込みと先物の反応から単一終値・場中レンジを予想し更新する"
+  default_prompt: "$forecast-index-fundamentals を使い、現在のニュースと同じ限月の先物から次の対象セッションを予想し、単一の終値・場中レンジ・反証条件を短いMarkdownで保存してください。"

@@ -1,0 +1,87 @@
+{
+  "prediction_id": "20261019_ナイト_開始前",
+  "mode": "開始前・現在情報",
+  "as_of": "2026-10-19T16:54:53+09:00",
+  "annotation_completed_at": "2026-10-19T16:55:05.762360+09:00",
+  "issued_at": "2026-10-19T16:55:05.762365+09:00",
+  "session": "2026-10-19_Night",
+  "session_start": "2026-10-19T17:00:00+09:00",
+  "target_at": "2026-10-20T06:00:00+09:00",
+  "previous_prediction_id": null,
+  "rule_version": "forecast-index-fundamentals・当回取得版",
+  "estimation": "裁量推定・未校正。学習済み価格係数なし。",
+  "instruments": {
+    "NK225": {
+      "contract": "2026-12",
+      "reference": {
+        "symbol": "NK225",
+        "contract": "2026-12",
+        "price": 64950,
+        "time": "2026-10-19T15:40:00+09:00",
+        "session": "2026-10-19_Day",
+        "proxy": true,
+        "source": "local/ナイト予測_20261019_1648/NK225_デイ原本.csv"
+      },
+      "direction": "下がる",
+      "closing_forecast": 64580,
+      "closing_change_pct_p0": -0.5696689761354845,
+      "intraday_range": {
+        "low": 64300,
+        "high": 65220,
+        "scope": "2026-10-19 17:00〜2026-10-20 06:00",
+        "calibrated_interval": false
+      },
+      "first_threshold": 64625.25,
+      "scenario": "デイ全体は回復したが最後30本は65140から64950へ190円下落し、TOPIXより上値維持が弱い。寄付きは小幅安から横ばい、上側0.5％より先に下側64625.25を試し、米国市場再開時にAI関連の戻り売りが優位となる裁量仮説を選ぶ。新しい海外悪化は未確認であり、旧SOX安や総影響Tから追加下落を算出していない。",
+      "invalidation": [
+        {
+          "id": "日経下落仮説の再点検",
+          "operator": "above",
+          "threshold": 65280,
+          "consecutive_bars": 2,
+          "bar_minutes": 5
+        }
+      ]
+    },
+    "TOPIX": {
+      "contract": "2026-12",
+      "reference": {
+        "symbol": "TOPIX",
+        "contract": "2026-12",
+        "price": 4073,
+        "time": "2026-10-19T15:39:00+09:00",
+        "session": "2026-10-19_Day",
+        "proxy": true,
+        "source": "local/ナイト予測_20261019_1648/TOPIX_デイ原本.csv"
+      },
+      "direction": "上がる",
+      "closing_forecast": 4100,
+      "closing_change_pct_p0": 0.6629020378099648,
+      "intraday_range": {
+        "low": 4058,
+        "high": 4120,
+        "scope": "2026-10-19 17:00〜2026-10-20 06:00",
+        "calibrated_interval": false
+      },
+      "first_threshold": 4093.365,
+      "scenario": "最後30本は4078.5から4073へ5.5低下にとどまり、日中高値4079.5近辺を保つ。内需・防御株への選別買いと原油上昇一服の下支えを重視し、寄付き横ばいから小幅高、下側0.5％より先に4093.365へ達する上昇継続を裁量で選ぶ。米AI不安の市場全体への波及が強まる対立案を残す。",
+      "invalidation": [
+        {
+          "id": "TOPIX上昇仮説の再点検",
+          "operator": "below",
+          "threshold": 4052,
+          "consecutive_bars": 2,
+          "bar_minutes": 5
+        }
+      ]
+    }
+  },
+  "material_ledger_hash": "23ac8c14b7cf9a93f4ae320e98b166b826d60479e755faf84a3acd90db2c25d2",
+  "limitations": [
+    "B0・Q・Rは未識別。Tから追加騰落へ換算しない。",
+    "最新の海外株・原油・為替・金利は同時計の実測比較が未取得。記事中の値はその記事の観測時計の参考に限る。",
+    "外部配信は09/04等の価格時計が混在し不採用。収集時計の新しさだけで採用しない。",
+    "CSVに公式オークション終値なし。P0は15:40/15:39の最終観測代理。",
+    "検証精度・レンジ包含率は未実証。満了前につき評価未実行。自動監視は未設定。"
+  ]
+}
